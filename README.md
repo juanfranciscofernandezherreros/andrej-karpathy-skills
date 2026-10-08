@@ -129,6 +129,12 @@ curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/
 
 This repository includes a committed Cursor project rule ([`.cursor/rules/karpathy-guidelines.mdc`](.cursor/rules/karpathy-guidelines.mdc)) so the same guidelines apply when you open the project in Cursor. See **[CURSOR.md](CURSOR.md)** for setup, using the rule in other projects, and how this relates to Claude Code.
 
+## Using with OpenAI Codex
+
+Codex can use these guidelines either as project instructions through [`AGENTS.md`](./AGENTS.md), or as a reusable skill through the existing [`skills/karpathy-guidelines/SKILL.md`](./skills/karpathy-guidelines/SKILL.md).
+
+For installation commands, global vs. per-project options, and verification steps, see [`CODEX.md`](./CODEX.md). Claude Code and Cursor setups are unchanged.
+
 ## Key Insight
 
 From Andrej:

@@ -65,3 +65,12 @@ For multi-step tasks, state a brief plan:
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+
+## Codex verification workflow
+
+When using this skill in OpenAI Codex:
+- Inspect the relevant code and repository guidance before making changes.
+- Agree on observable acceptance criteria for non-trivial tasks.
+- Prefer a focused regression test for bug fixes; run available, relevant checks after editing.
+- Inspect `git diff` to catch unrelated changes before finishing.
+- Summarize the result and report tests that were run or could not be run.
